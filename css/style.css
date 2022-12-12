@@ -10,7 +10,7 @@ img{
 
 .header .logo{
     padding-top: 28px;
-    padding-left: 120px;
+    
 }
 
 .menu ul{
@@ -38,11 +38,6 @@ img{
     color:fuchsia;
 }
 
-.firstBlock {
-    padding-left: 190px;
-    padding-right: 134px;
-}
-
 .firstBlock .firstBlock_text{
     padding-right: 18px;
 }
@@ -65,10 +60,6 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 padding-bottom: 151px;
-}
-
-.secondBlock{
-    padding-left: 120px;
 }
 
 .secondBlock .secondBlock_text{
@@ -100,7 +91,6 @@ padding-bottom: 28px;
 }
 
 .thirdBlock{
-    padding-left: 190px;
     padding-right: 120px;
     padding-bottom: 60px;
 }
@@ -316,6 +306,24 @@ padding-left: 25px;
     border-radius: 4px 0px 0px 4px;
     border-color: red;
     
+}
+
+.subscribe_block #email{
+    margin-top: 70px;
+}
+
+.subscribe_block .subscribe_button{
+background-color: rgba(29, 111, 243, 1);
+color: white;
+font-size: 18px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0.25px;
+text-align: left;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 0px 4px 4px 0px;
+margin-left: -6px;
+height: 33px;
 }
 
 .footer{
